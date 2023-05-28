@@ -7,5 +7,22 @@
     
 }
 
+#carruselImg{
+    max-height: 550px;
+}
+
+#imgc{
+    max-height: 550px;
+   
+}
 
 
+#Inicial{
+    --bs-scroll-height: 100px;
+}
+
+#back{
+    background-position: left;
+    
+    background-image: url(https://wallpapers.com/images/hd/professional-background-ky3f2oiumlnjx3kt.jpg);
+}
