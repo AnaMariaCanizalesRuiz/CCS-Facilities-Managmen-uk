@@ -22,7 +22,35 @@
 }
 
 #back{
-    background-position: left;
+
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 650px;
     
-    background-image: url(https://wallpapers.com/images/hd/professional-background-ky3f2oiumlnjx3kt.jpg);
+    
+    
+    
+    
+    background-image: url(https://www.tripleccleaning.net.au/lib/dc6jew/wood-floor-cleaning-loop-x-1-ffffff-240p_orig-khzlbceg.gif);
+}
+
+
+/* https://i.pinimg.com/originals/ab/c3/8c/abc38c1b8b7f7744771662024b4f0bba.gif - chica limpiando */
+/* 
+https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p_orig-khzki3h2.gif - Hombre limpiando oficina */
+
+@media (max-width: 1000px) {
+    #back{
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size:contain;
+        
+        background-image: none;
+    }
+}
+
+
+
+#imgSocialIconsSmall{
+    width: 45px;
 }
