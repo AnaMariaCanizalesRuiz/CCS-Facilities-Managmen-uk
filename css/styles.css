@@ -22,32 +22,61 @@
 }
 
 #back{
-
-    background-position: right;
+    background-position-x: right;
+    background-position-y: center;  
     background-repeat: no-repeat;
-    background-size: 650px;
-    
-    
-    
-    
-    
-    background-image: url(https://www.tripleccleaning.net.au/lib/dc6jew/wood-floor-cleaning-loop-x-1-ffffff-240p_orig-khzlbceg.gif);
+    background-size: 750px;
+    background-clip: padding-box;
+    background-image: url(https://media.istockphoto.com/id/1289185984/vector/plumber-repairing-pipe-burst.jpg?s=612x612&w=0&k=20&c=bj8nMamdz8bHwRt5eACEa5g7UJdKGiBIj2F8K_AuI6E=);
 }
 
+#back2{
+    background-position-x: right;
+    background-position-y: center;  
+    background-repeat: no-repeat;
+    background-size: 750px;
+    background-clip: padding-box;
+    background-image: url(https://image.freepik.com/vector-gratis/ilustracion-personajes-dibujos-animados-planos-aspirando-piso-lavando-ventana_202271-1278.jpg);
+}
 
-/* https://i.pinimg.com/originals/ab/c3/8c/abc38c1b8b7f7744771662024b4f0bba.gif - chica limpiando */
-/* 
-https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p_orig-khzki3h2.gif - Hombre limpiando oficina */
+#back3{
+    background-position-x: right;
+    background-position-y: center;  
+    background-repeat: no-repeat;
+    background-size: 750px;
+    background-clip: padding-box;
+    background-image: url(https://media.istockphoto.com/vectors/professional-cleaning-team-working-in-bank-office-vector-id1212977702?k=6&m=1212977702&s=612x612&w=0&h=ejr4b33rCpxwpQKdWDh9jv1nVH9YxCZ2IKHQuhA8ipA=);
+}
+
+#back-pan{
+    padding-right: 150px;
+}
+
+@media (max-width: 1350px) {
+#back-pan{
+    padding-right: 1px;
+}
+}
 
 @media (max-width: 1000px) {
-    #back{
+    #back, #back2, #back3{
         background-position: right;
         background-repeat: no-repeat;
         background-size:contain;
         
         background-image: none;
+
     }
 }
+
+/* https://media.istockphoto.com/vectors/professional-cleaning-team-working-in-bank-office-vector-id1212977702?k=6&m=1212977702&s=612x612&w=0&h=ejr4b33rCpxwpQKdWDh9jv1nVH9YxCZ2IKHQuhA8ipA= -limpieza empresa */
+/* https://i.pinimg.com/originals/ab/c3/8c/abc38c1b8b7f7744771662024b4f0bba.gif - chica limpiando */
+/* 
+https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p_orig-khzki3h2.gif - Hombre limpiando oficina */
+
+/* https://discovertemplate.com/wp-content/uploads/2023/02/General-house-cleaning-service_600.gif - personas limpiando hogar */
+
+/* https://image.freepik.com/vector-gratis/ilustracion-personajes-dibujos-animados-planos-aspirando-piso-lavando-ventana_202271-1278.jpg - limpieza inicio */
 
 
 
