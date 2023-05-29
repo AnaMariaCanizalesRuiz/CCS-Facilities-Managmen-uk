@@ -16,40 +16,31 @@
    
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', serif;
+   
+}
+p, a{
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
 #Inicial{
     --bs-scroll-height: 100px;
 }
 
-#back{
-    background-position-x: right;
-    background-position-y: center;  
-    background-repeat: no-repeat;
-    background-size: 750px;
-    background-clip: padding-box;
-    background-image: url(https://media.istockphoto.com/id/1289185984/vector/plumber-repairing-pipe-burst.jpg?s=612x612&w=0&k=20&c=bj8nMamdz8bHwRt5eACEa5g7UJdKGiBIj2F8K_AuI6E=);
-}
 
-#back2{
-    background-position-x: right;
-    background-position-y: center;  
-    background-repeat: no-repeat;
-    background-size: 750px;
-    background-clip: padding-box;
-    background-image: url(https://image.freepik.com/vector-gratis/ilustracion-personajes-dibujos-animados-planos-aspirando-piso-lavando-ventana_202271-1278.jpg);
-}
 
-#back3{
-    background-position-x: right;
-    background-position-y: center;  
-    background-repeat: no-repeat;
-    background-size: 750px;
-    background-clip: padding-box;
-    background-image: url(https://media.istockphoto.com/vectors/professional-cleaning-team-working-in-bank-office-vector-id1212977702?k=6&m=1212977702&s=612x612&w=0&h=ejr4b33rCpxwpQKdWDh9jv1nVH9YxCZ2IKHQuhA8ipA=);
-}
+
+
+
 
 #back-pan{
-    padding-right: 150px;
+    
+    border-radius: 25px;
+    border-color: aqua;
+    
+    min-height: 740px;
+    
 }
 
 @media (max-width: 1350px) {
@@ -59,14 +50,7 @@
 }
 
 @media (max-width: 1000px) {
-    #back, #back2, #back3{
-        background-position: right;
-        background-repeat: no-repeat;
-        background-size:contain;
-        
-        background-image: none;
-
-    }
+   
 }
 
 /* https://media.istockphoto.com/vectors/professional-cleaning-team-working-in-bank-office-vector-id1212977702?k=6&m=1212977702&s=612x612&w=0&h=ejr4b33rCpxwpQKdWDh9jv1nVH9YxCZ2IKHQuhA8ipA= -limpieza empresa */
