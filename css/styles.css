@@ -72,8 +72,21 @@ p, a{
     max-width: 26rem;
 }
 
+#imgMant{
+
+    max-width: 380px;
+    max-height: 380px;
+    border-radius: 50px;
+}
+
+
 @media (max-width: 1000px) {
-   
+    #imgMant{
+        max-width: 270px;
+        max-height: 270px;
+        border-radius: 50px;
+        
+    }
 }
 
 /* https://media.istockphoto.com/vectors/professional-cleaning-team-working-in-bank-office-vector-id1212977702?k=6&m=1212977702&s=612x612&w=0&h=ejr4b33rCpxwpQKdWDh9jv1nVH9YxCZ2IKHQuhA8ipA= -limpieza empresa */
@@ -95,15 +108,16 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
     text-align: center;
 }
 
-#imgMant{
-    max-width: 500px;
-    max-height: 300px;
-    border-radius: 50px;
-}
 
 #imgReasons{
-    max-width: 550px;
-    max-height: 600px;
+    max-width: 500px;
+    max-height: 500px;
+    
     border-radius: 50px;
-    padding-bottom: 50px;
+    
+}
+
+#centrar{
+    align-items: center;
+    align-content: center;
 }
