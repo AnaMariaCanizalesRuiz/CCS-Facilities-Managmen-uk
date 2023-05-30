@@ -179,7 +179,9 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
   }
 
 #nav, #footer{
-    background-color: #24b5350f !important ;
+    background-color: #24b53505 !important ;
+    border-top: 1px solid rgba(9, 57, 20, 0.096);
+    border-bottom: 1px solid rgb(9, 57, 20, 0.096);
 }
 
   
