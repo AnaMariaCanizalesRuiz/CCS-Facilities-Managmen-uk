@@ -7,46 +7,69 @@
     
 }
 
-#carruselImg{
-    max-height: 550px;
-}
 
-#imgc{
-    max-height: 550px;
-   
-}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lora', serif;
-   
+    color: #003171; 
+} 
+
+title{
+    font-family: 'Lora', serif;
+    color: #003171 ; 
 }
+
 p, a{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-#Inicial{
-    --bs-scroll-height: 100px;
+
+
+#carro{
+    align-items: center;
+    align-content: center;
+}
+
+
+@media (max-width: 1000px) {
+
+#back img{
+    
+    display: none;
+    
+}
+}
+
+#check{
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+}
+
+#carta{
+    border: none !important; 
 }
 
 
 
-
-
-
-
-#back-pan{
-    
-    border-radius: 25px;
-    border-color: aqua;
-    
-    min-height: 740px;
-    
+#contenidoCards img{
+    border-radius: 35px;
+    max-height: 300px;
 }
 
-@media (max-width: 1350px) {
-#back-pan{
-    padding-right: 1px;
+#contenidoCards{
+    margin: 50px;
 }
+#Seccion, #Seccion1, #Seccion3, #Seccion2 , #Seccion4{
+    margin-bottom: 100px;
+}
+
+#Seccion, #Seccion4{
+    margin-top: 200px;
+}
+
+#divStyle1{
+    max-width: 26rem;
 }
 
 @media (max-width: 1000px) {
@@ -66,4 +89,21 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
 
 #imgSocialIconsSmall{
     width: 45px;
+}
+
+#titulos2{
+    text-align: center;
+}
+
+#imgMant{
+    max-width: 500px;
+    max-height: 300px;
+    border-radius: 50px;
+}
+
+#imgReasons{
+    max-width: 550px;
+    max-height: 600px;
+    border-radius: 50px;
+    padding-bottom: 50px;
 }
