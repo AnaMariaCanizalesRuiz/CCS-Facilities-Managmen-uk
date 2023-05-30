@@ -43,7 +43,14 @@ p, a{
     width: 380px;
     height: 350px;
     
-    border-radius: 50px;
+    
+    
+}
+
+#imgMant{
+    width: 380px;
+    height: 350px;
+   
     
 }
 
@@ -102,13 +109,6 @@ p, a{
 }
 
 
-@media (max-width: 1000px) {
-    #imgMant{
-        
-        border-radius: 50px;
-        
-    }
-}
 
 /* https://media.istockphoto.com/vectors/professional-cleaning-team-working-in-bank-office-vector-id1212977702?k=6&m=1212977702&s=612x612&w=0&h=ejr4b33rCpxwpQKdWDh9jv1nVH9YxCZ2IKHQuhA8ipA= -limpieza empresa */
 /* https://i.pinimg.com/originals/ab/c3/8c/abc38c1b8b7f7744771662024b4f0bba.gif - chica limpiando */
