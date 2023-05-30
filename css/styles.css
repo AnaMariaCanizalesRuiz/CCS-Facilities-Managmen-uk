@@ -38,6 +38,16 @@ p, a{
     display: none;
     
 }
+
+#imgReasons{
+    width: 380px;
+    height: 350px;
+    
+    border-radius: 50px;
+    
+}
+
+
 }
 
 #check{
