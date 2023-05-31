@@ -63,6 +63,10 @@ p, a{
 
 }
 
+#botonNumero1, #botonNumero2{
+    border: none;
+}
+
 #check{
     height: 15px;
     width: 15px;
