@@ -40,9 +40,10 @@ p, a, #textoseccion6{
 }
 
 #imgReasons{
-    width: 380px;
-    height: 350px;
-    
+    width: 300px;
+    height: 250px;
+    margin-top: none;
+    margin: none;
     
     
 }
@@ -103,8 +104,7 @@ p, a, #textoseccion6{
 
 #SeccionE{
     padding-top: 50px;
-    border-top: 1px solid rgba(230, 255, 230, 0.687);
-    border-bottom: 1px solid rgba(230, 255, 230, 0.687);
+    
 }
 
 
@@ -133,7 +133,7 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
 
 /* https://image.freepik.com/vector-gratis/ilustracion-personajes-dibujos-animados-planos-aspirando-piso-lavando-ventana_202271-1278.jpg - limpieza inicio */
 
-
+/* https://i.pinimg.com/originals/5b/cf/51/5bcf5109367e1e5420a83e56330b9333.gif team */
 
 #imgSocialIconsSmall{
     width: 45px;
@@ -145,16 +145,16 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
 
 
 #imgReasons{
-    max-width: 500px;
-    max-height: 500px;
-    
-    border-radius: 50px;
-    
+    max-width: 320px;
+    max-height: 270px;
+    margin-top: 80px;  
 }
 
 #imgItem{
     width: 270px;
     height: 270px;
+    margin-top: 25px;
+    border-radius: 25px;
 
 }
 
@@ -174,12 +174,11 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
     border-color: #003171;
 }
 
-#Seccion
 
 #Seccion3 {
-    border-top: 1px solid rgb(9, 57, 20, 0.096);
-    border-bottom: 1px solid rgb(9, 57, 20, 0.096);
+   
     padding-bottom: 80px;
+    background-size: cover;
 
     /* width:1750px;
 
@@ -192,6 +191,13 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
              0.3em 0.3em 1em rgba(0,0,0,0.3); */
   }
 
+
+  #seccionR{
+    background-color: rgba(9, 57, 20, 0.037);
+    margin-top: 80px;
+  }
+
+
 #nav, #footer{
     background-color: #24b53505 !important ;
     border-top: 1px solid rgba(9, 57, 20, 0.096);
@@ -199,23 +205,37 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
 }
 
 #Seccion6{
-background-color: rgb(9, 57, 20, 0.096);
+    background-color: rgba(9, 57, 20, 0.037);
 margin-top: 80px;
 }
   
+#titulore{
+    margin-bottom: 80px;
+}
 
 #imgRecru{
-    background-image: url(https://uniquejets.fr/wp-content/uploads/2022/02/ww.jpg);
+   
+    border-radius: 50px;
 }
 
-#bloquerecru, #bloquerecru2{
-    height: 450px;
-}
 
-#workUs{
+
+
+
+
+#workUs, #sendEmailRecru{
     margin-top: 80px;
 }
 
+
+
 #sendEmailRecru{
     background-color: rgb(9, 57, 20, 0.096);
+
 }
+
+#fondocontactus{
+    background-color: rgb(9, 57, 20, 0.096);
+    border-radius: 25px;
+}
+
