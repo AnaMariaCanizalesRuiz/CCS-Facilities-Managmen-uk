@@ -54,7 +54,7 @@ p, a, #textoseccion6{
 
 #imgMant{
     width: 250px;
-    height: 330px;
+    height: 150px;
    
     
 }
@@ -130,14 +130,12 @@ p, a, #textoseccion6{
 #textderecha{
     text-align: center;
 }
-#divStyle1{
-    max-width: 26rem;
-}
+
 
 #imgMant{
 
-    max-width: 380px;
-    max-height: 380px;
+    max-width: 340px;
+    max-height: 190px;
     border-radius: 50px;
 }
 
@@ -185,8 +183,8 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
 }
 
 #imgItem{
-    width: 270px;
-    height: 270px;
+    width: 220px;
+    height: 220px;
     margin-top: 25px;
     border-radius: 25px;
 
@@ -225,22 +223,27 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
              0.3em 0.3em 1em rgba(0,0,0,0.3); */
   }
 
+#margintoponly{
+  border-top: 1px solid rgba(0, 0, 0, 0.096);
+
+}
 
   #seccionR{
-    background-color: rgba(9, 57, 20, 0.037);
+    background-color: rgba(243, 168, 144, 0.037);
     margin-top: 80px;
   }
 
 
 #nav, #footer{
     background-color: #24b53505 !important ;
-    border-top: 1px solid rgba(9, 57, 20, 0.096);
-    border-bottom: 1px solid rgb(9, 57, 20, 0.096);
+    border-top: 1px solid rgba(2, 255, 61, 0.096);
+    border-bottom: 1px solid rgb(2, 255, 61, 0.096);
 }
 
 #Seccion6{
-    background-color: rgba(9, 57, 20, 0.037);
-margin-top: 80px;
+    background-color: rgba(243, 168, 144, 0.037);
+    margin-top: 80px;
+
 }
   
 #titulore{

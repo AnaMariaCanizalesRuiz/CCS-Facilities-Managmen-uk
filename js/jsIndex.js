@@ -41,7 +41,7 @@ function btnOnClick2(){
 }
 
 
-const numeroCambio=document.getElementById('textoseccion6');
+const numeroCambio=document.getElementById('text10');
 let cantidad=0;
 
 let tiempo=setInterval(() => {
@@ -55,7 +55,7 @@ let tiempo=setInterval(() => {
 }, 80);
 
 
-const numeroCambio2=document.getElementById('textoseccion650');
+const numeroCambio2=document.getElementById('text50');
 let cantidad2=0;
 
 let tiempo2=setInterval(() => {
@@ -69,7 +69,7 @@ let tiempo2=setInterval(() => {
 }, 80);
 
 
-const numeroCambio3=document.getElementById('textoseccion61500');
+const numeroCambio3=document.getElementById('text1500');
 let cantidad3=0;
 
 let tiempo3=setInterval(() => {
@@ -84,7 +84,7 @@ let tiempo3=setInterval(() => {
 
 
 
-const numeroCambio4=document.getElementById('textoseccion6247');
+const numeroCambio4=document.getElementById('text247');
 let cantidad4=0;
 
 let tiempo4=setInterval(() => {
