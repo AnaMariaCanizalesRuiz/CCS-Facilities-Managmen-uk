@@ -3,6 +3,7 @@
     
 }
 
+
 .counter{
     text-align: center;
     font-size: 100px;
@@ -24,6 +25,7 @@ p, a, #textoseccion6{
 
 
 
+
 #carro{
     align-items: center;
     align-content: center;
@@ -35,7 +37,10 @@ p, a, #textoseccion6{
 #imgCarrousel{
     width: 300px;
     height: 250px;
+    
 }
+
+
 
 #back img{
     
@@ -107,7 +112,22 @@ p, a, #textoseccion6{
     border: none !important; 
     align-items: center !important;
     align-content: center !important;
+    
 }
+
+#carta:hover{
+    animation: pulse;
+    animation-duration: 2s;
+    
+}
+
+#moreservices:hover{
+
+color: #28a746a0;
+
+}
+
+
 
 
 
@@ -260,6 +280,11 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
     border-radius: 25px;
 }
 
+#ponerborder:scope{
+    animation: fadeInRight;
+    animation-duration: 2s; 
+}
+
 
 
 #workUs, #sendEmailRecru, #Seccion{
@@ -354,3 +379,6 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
       transform: rotate(360deg);
     }
   }
+
+
+

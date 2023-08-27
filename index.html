@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <link rel="icon" type="image/x-icon" href="img/icon-lo.png" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CCS Facilities Managmen uk</title>
     <link href="css/styles.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Source+Sans+Pro:ital,wght@0,300;0,400;1,200;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   </head>
 </head>
 <body>
@@ -31,7 +33,7 @@
         <div class="container" >
           <div class="row flex-lg-nowrap" >
             <div class="text-center" id="back1" >
-              <img id="imgCarrousel" src="https://media.istockphoto.com/id/1289185984/vector/plumber-repairing-pipe-burst.jpg?s=612x612&w=0&k=20&c=bj8nMamdz8bHwRt5eACEa5g7UJdKGiBIj2F8K_AuI6E=" alt="img">
+              <img class="animate__animated animate__backInLeft" id="imgCarrousel" src="https://media.istockphoto.com/id/1289185984/vector/plumber-repairing-pipe-burst.jpg?s=612x612&w=0&k=20&c=bj8nMamdz8bHwRt5eACEa5g7UJdKGiBIj2F8K_AuI6E=" alt="img">
               <h1 class="display-4">CSS Facilities Managment UK</h1>
               <p class="fs-lg mb-4 mb-lg-5">We look after the cleaning so you can focus on your business! Commercial office cleaning & facilities management services.</p>
               <a href="#" class="btn btn-success btn-lg">Contact us!</a>
@@ -63,7 +65,7 @@
         <div class="container" >
           <div class="row flex-lg-nowrap" >
             <div class="text-center" id="back1" >
-              <img id="imgCarrousel" src="https://image.freepik.com/vector-gratis/ilustracion-personajes-dibujos-animados-planos-aspirando-piso-lavando-ventana_202271-1278.jpg" alt="img">
+              <img class="animate__animated animate__backInLeft" id="imgCarrousel" src="https://image.freepik.com/vector-gratis/ilustracion-personajes-dibujos-animados-planos-aspirando-piso-lavando-ventana_202271-1278.jpg" alt="img">
               <h1 class="display-4">Residential Cleaning Services</h1>
               <p class="fs-lg mb-4 mb-lg-5">As well as professional deep carpet cleaning we also offer our residential customers rug cleaning, curtain cleaning, upholstery cleaning and mattress cleaning. We use the most advanced treatments together with powerful machines to help you maintain a clean and healthy home.</p>
               <a href="#" class="btn btn-success btn-lg">See our services</a>
@@ -78,7 +80,7 @@
         <div class="container" >
           <div class="row flex-lg-nowrap" >
             <div class="text-center" id="back1" >
-              <img id="imgCarrousel" src="https://media.istockphoto.com/vectors/professional-cleaning-team-working-in-bank-office-vector-id1212977702?k=6&m=1212977702&s=612x612&w=0&h=ejr4b33rCpxwpQKdWDh9jv1nVH9YxCZ2IKHQuhA8ipA=" alt="img">
+              <img class="animate__animated animate__backInLeft" id="imgCarrousel" src="https://media.istockphoto.com/vectors/professional-cleaning-team-working-in-bank-office-vector-id1212977702?k=6&m=1212977702&s=612x612&w=0&h=ejr4b33rCpxwpQKdWDh9jv1nVH9YxCZ2IKHQuhA8ipA=" alt="img">
               <h1 class="display-4">Office cleaning</h1>
               <p class="fs-lg mb-4 mb-lg-5">Excellent rates, superb client retention record & free estimates, friendly, efficient office cleaning staff with 15+ yrs’ experience, available 5 days a week – hours & frequency to suit your needs, regular checks from management & manager’s mobile number</p>
               <a href="#" class="btn btn-success btn-lg">Let's get a quote!</a>
@@ -135,7 +137,8 @@
 
 <section id="Seccion" class="container text-center">
 <h1 class="display-5">Our Services</h1>
-<div class="row row-cols-xl-3" id="contenidoCards">
+<div class="row row-cols-xl-3 row-cols-1" id="contenidoCards">
+
   <div class="col">
     <div class="card text-center" id="carta">
       <img id="imgOurServices" src="https://media.istockphoto.com/id/1327986005/vector/male-and-female-cleaning-staff-is-working-in-office-building.jpg?s=612x612&w=0&k=20&c=ZMB6-f2bRiFs0g_4JXLGgl6yvfWx3zwRPuzaiiWCn_0=" alt="...">
@@ -156,8 +159,8 @@
           </li>
         </ul>
         <div class="my-3 align-items-center">
-          <a class="h5 icon-link icon-link-hover link-success link-underline-success link-underline-opacity-25" href="#">
-            More services
+          <a id="moreservices" class="h5 icon-link icon-link-hover link-success link-underline-light link-underline-opacity-25" href="#">
+            More residential services
             <img id="check" src="https://cdn-icons-png.flaticon.com/128/7986/7986644.png" alt="">
           </a>
         </div>
@@ -185,7 +188,7 @@
           </li>
         </ul>
         <div class="my-3 align-items-center">
-          <a class="h5 icon-link icon-link-hover link-success link-underline-success link-underline-opacity-25" href="#">
+          <a id="moreservices"  class="h5 icon-link icon-link-hover link-success link-underline-light link-underline-opacity-25" href="#">
             More office services
             <img id="check" src="https://cdn-icons-png.flaticon.com/128/7986/7986644.png" alt="">
           </a>
@@ -214,7 +217,7 @@
           </li>
         </ul>
         <div class="my-3 align-items-center">
-          <a class="h5 icon-link icon-link-hover link-success link-underline-success link-underline-opacity-25" href="#">
+          <a id="moreservices" class="h5 icon-link icon-link-hover link-success link-underline-light link-underline-opacity-25" href="#">
             More maintenance services
             <img id="check" src="https://cdn-icons-png.flaticon.com/128/7986/7986644.png" alt="">
           </a>
@@ -256,7 +259,7 @@
     <div class="col-md-3 col-6 order-md-1 order-2">
       <div class="d-flex flex-column justify-content-between h-100 text-center">
         <!-- Item -->
-        <div class="mt-md-5 mt-4">
+        <div class="mt-md-5 mt-4 ">
           <img id="imgSocialIconsSmall" src="https://cdn-icons-png.flaticon.com/128/1349/1349244.png" alt="Icon" class="d-inline-block mb-4">
           <p class="mb-0 lh-1">
             <span class="h4 d-block mb-2 fs-base fw-normal">Established</span>
@@ -436,6 +439,7 @@ displayFooter();
 </script>
 
 
+   
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
 
