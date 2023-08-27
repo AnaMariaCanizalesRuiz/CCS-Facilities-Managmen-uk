@@ -79,13 +79,13 @@ window.addEventListener('scroll', function(){
     let animacion = document.getElementById('Seccion2');
     let posicionObj = animacion.getBoundingClientRect().top;
     console.log(posicionObj);
-    let tamañoPantalla = window.innerHeight/3.5;
+    let tamañoPantalla = window.innerHeight/1;
 
     if(posicionObj < tamañoPantalla){
         
         const elemento = animacion;
         elemento.classList.add('animate__animated', 'animate__fadeIn');
-        elemento.style.setProperty('--animate-duration', '3s');
+        elemento.style.setProperty('--animate-duration', '5s');
     }
 })
 
