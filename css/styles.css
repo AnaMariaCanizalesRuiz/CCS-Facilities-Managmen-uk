@@ -42,7 +42,23 @@ p, a{
     margin: 40px;
 }
 
+
+/* Cuando la pantalla esta de 0 a 1000 */
 @media (max-width: 1000px) {
+    #imgReasons{
+        width: 120px;
+        height: 170px;
+        margin-top: 10px;  
+        border-radius: 100px;
+    }
+
+    #imgaboutus{
+        
+        width: 350px;
+        height: 280px;
+       
+       
+       }
 
     #Seccion6{
         background-color: rgba(243, 168, 144, 0.037);
@@ -273,7 +289,7 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
 }
 
   #seccionR{
-    background-color: rgba(141, 234, 118, 0.037);
+
     margin-top: 80px;
     border-top: .1em solid #00472910;
     border-bottom: .1em solid #00472910;
@@ -284,8 +300,8 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
     
     background-position: center;    
     background-size: cover;
-    background-color: #d4efdfb5 !important ;
-    box-shadow: 0px 2px 3px #5b746571, 0px -2px 3px #5b746571;
+    background-color: #19875409 !important ;
+    box-shadow: 0px 2px 3px #19875415, 0px -2px 3px #1987543c;
 
 }
 
