@@ -30,14 +30,29 @@ p, a, #textoseccion6{
     align-items: center;
     align-content: center;
 }
-
+#imgCarrousel{
+    max-width: 1000px;
+    max-height: 380px;
+    border-radius: 50px;
+    animation-duration: 2s;
+    margin-top: 15px;
+}
 
 @media (max-width: 1000px) {
 
+    #Seccion6{
+        background-color: rgba(243, 168, 144, 0.037);
+        margin-top: 80px;
+        background-image: url(https://img.freepik.com/fotos-premium/productos-limpieza-guantes-cuenca-rosa_23-2148260806.jpg?w=2000);
+        background-attachment: fixed;
+        background-size: cover;
+        height: 40px;
+        background-position: center;
+    }
+
 #imgCarrousel{
     width: 300px;
-    height: 250px;
-    animation-duration: 5s;
+    height: 230px;
 
 }
 
@@ -49,14 +64,7 @@ p, a, #textoseccion6{
     
 }
 
-#imgReasons{
-    width: 300px;
-    height: 250px;
-    margin-top: none;
-    margin: none;
-    
-    
-}
+
 
 #imgMant{
     width: 250px;
@@ -106,6 +114,16 @@ p, a, #textoseccion6{
     
     
     }
+
+    #Seccion6{
+        background-color: rgba(243, 168, 144, 0.037);
+        margin-top: 80px;
+        background-color: gray;
+        
+        height: 40em;
+    }
+  
+    
     
 }
 
@@ -201,6 +219,7 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
     max-width: 320px;
     max-height: 270px;
     margin-top: 80px;  
+    border-radius: 50px;
 }
 
 #imgItem{
@@ -250,21 +269,35 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
 }
 
   #seccionR{
-    background-color: rgba(243, 168, 144, 0.037);
+    background-color: rgba(141, 234, 118, 0.037);
     margin-top: 80px;
+    border-top: .1em solid #00472910;
+    border-bottom: .1em solid #00472910;
   }
 
 
-#nav, #footer{
-    background-color: #24b53505 !important ;
-    border-top: 1px solid rgba(2, 255, 61, 0.096);
-    border-bottom: 1px solid rgb(2, 255, 61, 0.096);
+#footer{
+    
+    background-position: center;    
+    background-size: cover;
+
+}
+
+#nav{
+    background-position: center;    
+    background-size: cover;
+
 }
 
 #Seccion6{
     background-color: rgba(243, 168, 144, 0.037);
     margin-top: 80px;
-
+    background-image: url(https://img.freepik.com/fotos-premium/productos-limpieza-guantes-cuenca-rosa_23-2148260806.jpg?w=2000);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 200px;
+  
+    
 }
   
 #titulore{
@@ -394,3 +427,12 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
     /* transform: translateX(0); */
     
 }
+
+.carousel .carousel-control-prev {
+    filter: invert(100%);
+  }
+  
+  .carousel .carousel-control-next {
+    filter: invert(100%);
+  }
+
