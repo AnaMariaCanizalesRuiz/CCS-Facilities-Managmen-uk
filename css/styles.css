@@ -37,7 +37,8 @@ p, a, #textoseccion6{
 #imgCarrousel{
     width: 300px;
     height: 250px;
-    
+    animation-duration: 5s;
+
 }
 
 
@@ -280,10 +281,6 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
     border-radius: 25px;
 }
 
-#ponerborder:scope{
-    animation: fadeInRight;
-    animation-duration: 2s; 
-}
 
 
 
@@ -382,3 +379,18 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
 
 
 
+  .hidden {
+  
+    opacity:0;
+    transform:scale(0.8);
+    transition: all ease-out 1.2s;
+    /* transform: translateX(-100%); */
+}
+
+.mostrar {
+    
+    opacity:1;
+    transform:scale(1);
+    /* transform: translateX(0); */
+    
+}
