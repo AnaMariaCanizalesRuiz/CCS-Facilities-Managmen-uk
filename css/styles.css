@@ -133,8 +133,10 @@ p, a, li{
     max-height: 300px;
 }
 
+
+
 #contenidoCards{
-    margin: 50px;
+    margin-bottom: 50px;
 }
 
 #SeccionE{

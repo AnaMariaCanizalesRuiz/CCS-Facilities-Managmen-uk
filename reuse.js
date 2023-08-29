@@ -89,98 +89,37 @@ function displayFooter() {
   function displayNavbar() {
     const nav = document.createElement('nav');
     nav.innerHTML = `
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="icon" type="image/x-icon" href="img/icon-lo.png" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CCS Facilities Managmen uk</title>
-        <link href="css/styles.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Source+Sans+Pro:ital,wght@0,300;0,400;1,200;1,300&display=swap" rel="stylesheet">
-      </head>
-    </head>
-    <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav">
-        <div class="container-fluid shadow" id="NavBar">
-          <a class="navbar-brand" href="index.html">
-              <img src="img/icon-lo.png" alt="logo" height="80px" width="70px" >
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-center">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul id="Inicial" class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"  id="anim">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="how-we-are.html" id="anim">About us</a>
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle"  id="anim" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Cleaning Services
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" id="animx" href="">Maintenance</a></li>
-                  <li><a class="dropdown-item" id="animx" href="">Plumbing services</a></li>
-                  <li><a class="dropdown-item" id="animx" href="">Electricity services</a></li>
-                  <li><a class="dropdown-item" id="animx" href="">Painting and decorating</a></li>
-                  <li><a class="dropdown-item" id="animx" href="">Tailing.</a></li>
-                  <li><a class="dropdown-item" class="dropdown-item" id="animx" href="">Guttering clean and repair service.</a></li>
-                  <li><a class="dropdown-item" id="animx" href="">Dismantle and Unsamble services.</a></li>
-                  <li><a class="dropdown-item" id="animx" href="">Jet washed services</a></li>
-                  <li><a class="dropdown-item" id="animx" href="">Wasted removal </a></li>
-                  <li><a class="dropdown-item" id="animx" href="">Rubbish collection.</a></li>
-    
-              </ul>
-              </li>
-    
-              <li class="nav-item dropdown">
-                <a  id="anim" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Maintenance Services
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" id="animx" href="">Maintenance services</a></li>
-                  <li><a class="dropdown-item" id="animx" href="">Consumables and janitorial supplies</a></li>
-                  <li><a class="dropdown-item" id="animx" href="">Office cleaning</a></li>
-                  <li><a class="dropdown-item" id="animx" href="">Carpet c</a></li>
-                  <li><a class="dropdown-item" id="animx" href="">Windo c reach and wash</a></li>
-                  <li><a class="dropdown-item" id="animx" href="">Jetting wash services</a></li>
-                  <li><a class="dropdown-item" id="animx" href="">Graffiti removal</a></li>
-                  <li><a class="dropdown-item" id="animx" href="">Afther building</a></li>
-                  <li><a class="dropdown-item" id="animx" href="">One off</a></li>
-                  <li><a class="dropdown-item" id="animx" href="">Afther party cleaning</a></li>
-                  <li><a class="dropdown-item" id="animx" href="">Residential and domestic.</a></li>
-    
-              </ul>
-              </li>
-    
-    
-              <li class="nav-item">
-                  <a class="nav-link"  id="anim" href="recruitment.html">Recruitment</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link"  id="anim" href="contact-us.html">Contact Us</a>
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
               </li>
             </ul>
-      
-            <span class="navbar-text">
-              Contact:
-              <button type="button" class="btn btn-outline-success" id="botonNumero1" onclick="btnOnClick()" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="click to copy number">123-456-789</button>
-              <a href="https://api.whatsapp.com/send?phone=573217043952&text=Hey!%20I%20Need%20A%20Quote%20" target="_blank" rel="noopener noreferrer">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/479px-WhatsApp_icon.png" alt="iconoWhatsapp" height="25px" width="25px">
-               </a>
-            </span>
           </div>
         </div>
-    </nav>
-    </body>
-    </html>
+      </nav>
     `;
     document.body.appendChild(nav);
   }
