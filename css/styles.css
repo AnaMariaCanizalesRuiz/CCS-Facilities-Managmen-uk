@@ -180,8 +180,7 @@ p{
 }
 
 #nav{
-    background-position: center;    
-    background-size: cover;
+
     background-color: white !important;
 }
 
@@ -372,12 +371,11 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
 /* https://i.pinimg.com/originals/5b/cf/51/5bcf5109367e1e5420a83e56330b9333.gif team */
 
 #anim{
-    margin: 10px 30px;
+
     color: #198754 ;
     background-image: linear-gradient(90deg, #20c997, #20c997, #20c997);
     text-decoration: none;
     font-weight: bold;
-    cursor: pointer;
     background-repeat: no-repeat;
     background-size:  0% 2px;
     background-position: left bottom;
@@ -391,12 +389,34 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
     background-image: linear-gradient(90deg, #dc3545, #dc3545, #dc3545);
 }
 
+
+
+#animf{
+    margin: 10px 30px;
+    color: #198754 ;
+    background-image: linear-gradient(90deg, #20c997, #20c997, #20c997);
+    text-decoration: none;
+
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size:  0% 2px;
+    background-position: left bottom;
+    transition: background-size 700ms ease-in-out; 
+
+}
+
+#animf:hover{
+    background-size: 100% 2px;
+    color: #dc3545;
+    background-image: linear-gradient(90deg, #dc3545, #dc3545, #dc3545);
+}
+
+
 #animx{
 
     color: #198754 ;
     text-decoration: none;
     background-repeat: no-repeat;
-
     font-family: 'Lora', serif;   
 }
 
