@@ -1,13 +1,11 @@
 #botonNumero, #botonWhatsapp, #botonNumerox, #botonWhatsappx{
-    border: none;
-    
+    border: none;   
 }
-
 
 .counter{
     text-align: center;
     font-size: 100px;
-  }
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lora', serif;
@@ -19,7 +17,7 @@ title{
     color: #003171 ; 
 }
 
-p, a{
+p{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -27,13 +25,11 @@ p, a{
     font-family: 'Rubik', sans-serif;
 }
 
-
-
-
 #carro{
     align-items: center;
     align-content: center;
 }
+
 #imgCarrousel{
     max-width: 1000px;
     max-height: 380px;
@@ -42,79 +38,25 @@ p, a{
     margin: 40px;
 }
 
-
-/* Cuando la pantalla esta de 0 a 1000 */
-@media (max-width: 1000px) {
-    #imgReasons{
-        width: 120px;
-        height: 170px;
-        margin-top: 10px;  
-        border-radius: 100px;
-    }
-
-    #imgaboutus{
-        
-        width: 350px;
-        height: 280px;
-       
-       
-       }
-
-    #Seccion6{
-        background-color: rgba(243, 168, 144, 0.037);
-        margin-top: 80px;
-        background-image: url(https://img.freepik.com/fotos-premium/productos-limpieza-guantes-cuenca-rosa_23-2148260806.jpg?w=2000);
-        background-attachment: fixed;
-        background-size: cover;
-        height: 40px;
-        background-position: center;
-    }
-
-#imgCarrousel{
-    width: 300px;
-    height: 230px;
-
+.hidden {
+    opacity:0;
+    transform:scale(0.8);
+    transition: all ease-out 1.2s;
+    /* transform: translateX(-100%); */
 }
 
-
-
-#back img{
-    
-    display: none;
-    
+.mostrar {
+    opacity:1;
+    transform:scale(1);
+    /* transform: translateX(0); */
 }
 
-
-
-#imgMant{
-    width: 250px;
-    height: 150px;
-   
-    
+.carousel .carousel-control-prev {
+    filter: invert(100%);
 }
-
-#imgperfil{
-    width: 250px;
-    height: 250px;
-   
-    
-}
-
-
-#imgMantE{
-    width: 300px;
-    height: 150px;
-   
-    
-}
-
-#imgOurServices{
-    width: 250px;
-    height: 180px;
-
-}
-
-
+  
+.carousel .carousel-control-next {
+    filter: invert(100%);
 }
 
 #botonNumero1, #botonNumero2{
@@ -127,48 +69,20 @@ p, a{
     margin: 5px;
 }
 
-@media (min-width: 1000px) {
-    #imgOurServices{
-        width: 300px;
-        height: 250px;
-    
-    
-    }
-
-    #Seccion6{
-        background-color: rgba(243, 168, 144, 0.037);
-        margin-top: 80px;
-        background-color: gray;
-        
-        height: 40em;
-    }
-  
-    
-    
-}
-
 #carta{
     border: none !important; 
     align-items: center !important;
-    align-content: center !important;
-    
+    align-content: center !important;  
 }
 
 #carta:hover{
     animation: pulse;
     animation-duration: 2s;
-    
 }
 
 #moreservices:hover{
-
-color: #28a746a0;
-
+    color: #28a746a0;
 }
-
-
-
-
 
 #contenidoCards img{
     border-radius: 35px;
@@ -179,45 +93,26 @@ color: #28a746a0;
     margin: 50px;
 }
 
-
 #SeccionE{
     padding-top: 50px;
     
 }
 
-
 #textderecha{
     text-align: center;
 }
 
-
 #imgMant{
-
     max-width: 340px;
     max-height: 190px;
     border-radius: 50px;
 }
 
-
 #imgMantE{
-
     max-width: 1000px;
     max-height: 380px;
     border-radius: 50px;
 }
-
-
-
-/* https://media.istockphoto.com/vectors/professional-cleaning-team-working-in-bank-office-vector-id1212977702?k=6&m=1212977702&s=612x612&w=0&h=ejr4b33rCpxwpQKdWDh9jv1nVH9YxCZ2IKHQuhA8ipA= -limpieza empresa */
-/* https://i.pinimg.com/originals/ab/c3/8c/abc38c1b8b7f7744771662024b4f0bba.gif - chica limpiando */
-/* 
-https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p_orig-khzki3h2.gif - Hombre limpiando oficina */
-
-/* https://discovertemplate.com/wp-content/uploads/2023/02/General-house-cleaning-service_600.gif - personas limpiando hogar */
-
-/* https://image.freepik.com/vector-gratis/ilustracion-personajes-dibujos-animados-planos-aspirando-piso-lavando-ventana_202271-1278.jpg - limpieza inicio */
-
-/* https://i.pinimg.com/originals/5b/cf/51/5bcf5109367e1e5420a83e56330b9333.gif team */
 
 #imgSocialIconsSmall{
     width: 45px;
@@ -226,20 +121,16 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
 #imgaboutus{
  max-width: 450px;
  max-height: 330px;
-
-
 }
 
 #titulos2{
     text-align: center;
 }
 
-
 #imgReasons{
     max-width: 320px;
     max-height: 270px;
     margin-top: 80px;  
-    border-radius: 50px;
 }
 
 #imgItem{
@@ -247,7 +138,6 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
     height: 220px;
     margin-top: 25px;
     border-radius: 25px;
-
 }
 
 #centrar{
@@ -268,43 +158,26 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
 
 
 #Seccion3 {
-   
     padding-bottom: 80px;
     background-size: cover;
-
-    /* width:1750px;
-
-    
-    margin: 20px auto 0 auto;
-    
-    box-shadow:
-    inset 0 -3em 3em rgba(0,0,0,0.1),
-             0 0  0 2px rgb(255,255,255),
-             0.3em 0.3em 1em rgba(0,0,0,0.3); */
-  }
-
-#margintoponly{
-  border-top: 1px solid rgba(0, 0, 0, 0.096);
-
 }
 
-  #seccionR{
+#margintoponly{
+    border-top: 1px solid rgba(0, 0, 0, 0.096);
+}
 
+#seccionR{
     margin-top: 80px;
     border-top: .1em solid #00472910;
     border-bottom: .1em solid #00472910;
-  }
-
-
-#footer, #nav{
-    
-    background-position: center;    
-    background-size: cover;
-    background-color: #19875409 !important ;
-    box-shadow: 0px 2px 3px #19875415, 0px -2px 3px #1987543c;
-
 }
 
+#footer, #nav{
+    background-position: center;    
+    background-size: cover;
+    box-shadow: 0px 2px 3px #0724171a, 0px -2px 3px #0724171a;
+    background-color: white !important;
+}
 
 #Seccion6{
     background-color: rgba(243, 168, 144, 0.037);
@@ -312,9 +185,7 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
     background-image: url(https://img.cgaxis.com/2021/08/blue_and_silver_wrapping_paper_42_77_ao.jpg);
     background-attachment: fixed;
     background-size: cover;
-    height: 200px;
-  
-    
+    height: 200px;   
 }
   
 #titulore{
@@ -322,27 +193,19 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
 }
 
 #imgRecru{
-   
     border-radius: 50px;
 }
-
 
 #ponerborder{
     border-radius: 25px;
 }
 
-
-
-
 #workUs, #sendEmailRecru, #Seccion{
     margin-top: 80px;
 }
 
-
-
 #sendEmailRecru{
     background-color: rgb(9, 57, 20, 0.096);
-
 }
 
 #fondocontactus{
@@ -350,6 +213,67 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
     border-radius: 25px;
 }
 
+/* Cuando la pantalla esta a mas de 1000 */
+@media (min-width: 1000px) {
+
+    #imgOurServices{
+        width: 300px;
+        height: 250px;
+    }
+
+    #Seccion6{
+        background-color: gray;
+    }  
+    
+}
+
+/* Cuando la pantalla esta de 0 a 1000 */
+@media (max-width: 1000px) {
+    #imgReasons{
+        width: 120px;
+        height: 170px;
+        margin-top: 10px;  
+    }
+
+    #imgaboutus{
+        width: 350px;
+        height: 280px;  
+    }
+
+    #Seccion6{
+        height: 200px;
+    }
+
+    #imgCarrousel{
+        width: 300px;
+        height: 230px;
+    }
+
+    #back img{
+        display: none;
+    }
+
+    #imgMant{
+        width: 250px;
+        height: 150px;
+    }
+
+    #imgperfil{
+        width: 250px;
+        height: 250px;   
+    }
+
+    #imgMantE{
+        width: 300px;
+        height: 150px;
+    }
+
+    #imgOurServices{
+        width: 250px;
+        height: 180px;
+    }
+
+}
 
 .page-loading {
     position: fixed;
@@ -427,29 +351,33 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
     }
   }
 
+/* https://media.istockphoto.com/vectors/professional-cleaning-team-working-in-bank-office-vector-id1212977702?k=6&m=1212977702&s=612x612&w=0&h=ejr4b33rCpxwpQKdWDh9jv1nVH9YxCZ2IKHQuhA8ipA= -limpieza empresa */
+/* https://i.pinimg.com/originals/ab/c3/8c/abc38c1b8b7f7744771662024b4f0bba.gif - chica limpiando */
+/* 
+https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p_orig-khzki3h2.gif - Hombre limpiando oficina */
 
+/* https://discovertemplate.com/wp-content/uploads/2023/02/General-house-cleaning-service_600.gif - personas limpiando hogar */
 
-  .hidden {
-  
-    opacity:0;
-    transform:scale(0.8);
-    transition: all ease-out 1.2s;
-    /* transform: translateX(-100%); */
+/* https://image.freepik.com/vector-gratis/ilustracion-personajes-dibujos-animados-planos-aspirando-piso-lavando-ventana_202271-1278.jpg - limpieza inicio */
+
+/* https://i.pinimg.com/originals/5b/cf/51/5bcf5109367e1e5420a83e56330b9333.gif team */
+
+#anim{
+    margin: 10px 30px;
+    color: #198754 ;
+    background-image: linear-gradient(90deg, #20c997, #20c997, #20c997);
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size:  0% 2px;
+    background-position: left bottom;
+    transition: background-size 700ms ease-in-out; 
+    font-family: 'Lora', serif;   
 }
 
-.mostrar {
-    
-    opacity:1;
-    transform:scale(1);
-    /* transform: translateX(0); */
-    
+#anim:hover{
+    background-size: 100% 2px;
+    color: #dc3545;
+    background-image: linear-gradient(90deg, #dc3545, #dc3545, #dc3545);
 }
-
-.carousel .carousel-control-prev {
-    filter: invert(100%);
-  }
-  
-  .carousel .carousel-control-next {
-    filter: invert(100%);
-  }
-
