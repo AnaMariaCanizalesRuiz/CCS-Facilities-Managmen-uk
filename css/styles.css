@@ -8,21 +8,34 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lora', serif;
-    color: #003171; 
-} 
+    font-family: 'Rubik', sans-serif;
+    color: #003171 !important; 
+}  
 
 title{
-    font-family: 'Lora', serif;
-    color: #003171 ; 
+    font-family: 'Rubik', sans-serif;
+    color: #003171 !important; 
 }
 
-p{
-    font-family: 'Source Sans Pro', sans-serif;
+p, a, li{
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: capitalize;
+}
+
+#spant{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
 }
 
 .textoseccion6{
     font-family: 'Rubik', sans-serif;
+}
+
+#tituloCarta{
+    text-transform: uppercase;
+    font-size: 25px;
+    
 }
 
 #carro{
@@ -30,12 +43,43 @@ p{
     align-content: center;
 }
 
-#imgCarrousel{
-    max-width: 1000px;
-    max-height: 380px;
+
+#carro1{
+    background-image: url("https://insights.workwave.com/wp-content/uploads/2020/12/person-cleaning-carpet-with-vacuum-cleaner-picture-id1191080465.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-attachment: fixed;
+}
+
+#carro2{
+    background-image: url("https://detailcleanings.com/wp-content/uploads/2020/07/residential-cleaning-services.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-attachment: fixed;
+}
+
+#carro3{
+    background-image: url("https://www.limpiezaslm2.com/wp-content/uploads/2019/06/externalizaci%C3%B3n-de-la-limpieza-1200x900.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-attachment: fixed;
+}
+
+#back1{
+    background-color: rgba(255, 255, 255, 0.929);
+    padding-bottom: 50px;
+    padding-top: 50px;
     border-radius: 50px;
-    animation-duration: 2s;
-    margin: 40px;
+
 }
 
 .hidden {
@@ -167,9 +211,16 @@ p{
 }
 
 #seccionR{
+    padding-top: 80px;
+    padding-bottom: 80px;
     margin-top: 80px;
+    margin-bottom: 80px;
     border-top: .1em solid #00472910;
     border-bottom: .1em solid #00472910;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("https://ccclean.es/wp-content/uploads/2022/11/mantener-limpias-las-ventanas-de-tu-oficina.jpg");
 }
 
 #footer{
@@ -182,18 +233,28 @@ p{
 #nav{
 
     background-color: white !important;
+    text-transform: uppercase;
+    
 }
 
 
+.display-4, .display-5{
+    text-transform: uppercase;
+    font-weight:bold;
+    font-family: 'Rubik', sans-serif;
+}
 
 
 #Seccion6{
     background-color: rgba(243, 168, 144, 0.037);
     margin-top: 80px;
-    background-image: url(https://img.cgaxis.com/2021/08/blue_and_silver_wrapping_paper_42_77_ao.jpg);
+    margin-bottom: 80px;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/734/637/121/circles-background-light-material-wallpaper-preview.jpg");
     background-attachment: fixed;
     background-size: cover;
-    height: 200px;   
+    background-position: center;
+    width: 100%;
+    height: 120px;   
 }
   
 #titulore{
@@ -250,11 +311,6 @@ p{
 
     #Seccion6{
         height: 200px;
-    }
-
-    #imgCarrousel{
-        width: 300px;
-        height: 230px;
     }
 
     #back img{
@@ -413,7 +469,7 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
 
 
 #animx{
-
+    text-transform: capitalize;
     color: #198754 ;
     text-decoration: none;
     background-repeat: no-repeat;
