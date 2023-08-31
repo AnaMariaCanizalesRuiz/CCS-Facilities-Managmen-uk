@@ -45,6 +45,11 @@ p, a, li{
     
 }
 
+#tituloreason{
+
+    color: #003171;
+}
+
 #carro{
     align-items: center;
     align-content: center;
@@ -85,7 +90,7 @@ p, a, li{
     background-color: rgba(255, 255, 255, 0.929);
     padding-bottom: 50px;
     padding-top: 50px;
-    border-radius: 50px;
+    border-radius: 25px;
 
 }
 
@@ -122,9 +127,11 @@ p, a, li{
 }
 
 #carta{
-    border: none !important; 
+
     align-items: center !important;
     align-content: center !important;  
+    border-radius: 25px;
+
 }
 
 #carta:hover{
@@ -133,11 +140,11 @@ p, a, li{
 }
 
 #moreservices:hover{
-    color: #28a746a0;
+    color: #24B535;
 }
 
 #contenidoCards img{
-    border-radius: 35px;
+    border-radius: 25px;
     max-height: 300px;
 }
 
@@ -152,10 +159,10 @@ p, a, li{
 }
 
 #txtNav{
-    color: #198754;
-    font-family: 'Rubik', sans-serif;
+    color: #24B535;
+    font-family: 'Noto Sans', sans-serif;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 18px;
     padding-right: 15px;
     padding-left: 15px;
     background-image: linear-gradient(90deg, #198754da, #198754da, #198754da);
@@ -167,17 +174,17 @@ p, a, li{
 }
 
 #txtNav:hover{
-    color: #dc3545;
+    color: #CC555B;
     background-size: 100% 2px;
     background-image: linear-gradient(90deg, #dc3546da, #dc3546da, #dc3546da);
 
 }
 
 #txtNavHijo{
-    color: #198754;
+    color: #24B535;
 }
 #txtNavHijo:hover{
-    color: #dc3545;
+    color: #CC555B;
 }
 #navbarNavDropdown{
     align-items: center;
@@ -203,13 +210,13 @@ p, a, li{
 #imgMant{
     max-width: 340px;
     max-height: 190px;
-    border-radius: 50px;
+    border-radius: 25px;
 }
 
 #imgMantE{
     max-width: 1000px;
     max-height: 380px;
-    border-radius: 50px;
+    border-radius: 25px;
 }
 
 #imgSocialIconsSmall{
@@ -219,6 +226,7 @@ p, a, li{
 #imgaboutus{
  max-width: 450px;
  max-height: 330px;
+ border-radius: 25px;
 }
 
 #titulos2{
@@ -250,7 +258,7 @@ p, a, li{
 
 #borde{
     border-top: 100px;
-    border-radius: 100px;
+    border-radius: 25px;
     border-color: #003171;
 }
 
@@ -311,7 +319,7 @@ p, a, li{
 }
 
 #imgRecru{
-    border-radius: 50px;
+    border-radius: 25px;
 }
 
 #ponerborder{
@@ -476,8 +484,8 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
 /* https://i.pinimg.com/originals/5b/cf/51/5bcf5109367e1e5420a83e56330b9333.gif team */
 
 #anim{
-    color: #198754 ;
-    background-image: linear-gradient(90deg, #20c997, #20c997, #20c997);
+    color: #24B535 ;
+    background-image: linear-gradient(90deg, #24b535e7, #24b535e7, #24b535e7);
     text-decoration: none;
     font-weight: bold;
     background-repeat: no-repeat;
@@ -489,16 +497,16 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
 
 #anim:hover{
     background-size: 100% 2px;
-    color: #dc3545;
-    background-image: linear-gradient(90deg, #dc3545, #dc3545, #dc3545);
+    color: #CC555B;
+    background-image: linear-gradient(90deg, #cc555bec, #cc555bec, #cc555bec);
 }
 
 
 
 #animf{
     margin: 10px 30px;
-    color: #198754 ;
-    background-image: linear-gradient(90deg, #20c997, #20c997, #20c997);
+    color: #24B535 ;
+    background-image: linear-gradient(90deg, #24b535e7, #24b535e7, #24b535e7);
     text-decoration: none;
     cursor: pointer;
     background-repeat: no-repeat;
@@ -510,19 +518,19 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
 
 #animf:hover{
     background-size: 100% 2px;
-    color: #dc3545;
-    background-image: linear-gradient(90deg, #dc3545, #dc3545, #dc3545);
+    color: #cc555bec;
+    background-image: linear-gradient(90deg, #cc555bec, #cc555bec, #cc555bec);
 }
 
 
 #animx{
     text-transform: capitalize;
-    color: #198754 ;
+    color: #24B535 ;
     text-decoration: none;
     background-repeat: no-repeat;
     font-family: 'Lora', serif;   
 }
 
 #animx:hover{
-    color: #dc3545;
+    color: #CC555B;
 }
