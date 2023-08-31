@@ -534,3 +534,25 @@ https://www.tripleccleaning.net.au/lib/dc6jew/vacuum-office-loop-x-2-ffffff-240p
 #animx:hover{
     color: #CC555B;
 }
+
+/* HOW WE ARE
+*/
+
+#corpo{
+    background-repeat: none;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("https://insights.workwave.com/wp-content/uploads/2020/05/cleaning-lady-with-a-bucket-and-cleaning-products-picture-id870219332.jpg");
+}
+
+#fondohow{
+    background-color: rgba(255, 255, 255, 0.929);
+ border-radius: 25px;
+
+
+}
+
+#titulohow{
+   
+}
