@@ -12,9 +12,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #003171 !important; 
 }
 
-.display-4, .display-5{
-    text-transform: uppercase;
+.display-4, .display-5, .display-6{
+    text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
+
 
     
 }
@@ -31,7 +32,7 @@ p, a, li{
 
 #spant{
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 25px;
 }
 
@@ -40,7 +41,7 @@ p, a, li{
 }
 
 #tituloCarta{
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 25px;
     
 }
@@ -57,7 +58,7 @@ p, a, li{
 
 
 #carro1{
-    background-image: url("https://insights.workwave.com/wp-content/uploads/2020/12/person-cleaning-carpet-with-vacuum-cleaner-picture-id1191080465.jpg");
+    background-image: url(img/hombre.jpg) ;
     background-size: cover;
     background-position: center;
     background-repeat: none;
@@ -161,7 +162,7 @@ p, a, li{
 #txtNav{
     color: #24B535;
     font-family: 'Noto Sans', sans-serif;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 18px;
     padding-right: 15px;
     padding-left: 15px;
@@ -295,7 +296,7 @@ p, a, li{
 #nav{
 
     background-color: white !important;
-    text-transform: uppercase;
+    text-transform: capitalize;
     
 }
 
